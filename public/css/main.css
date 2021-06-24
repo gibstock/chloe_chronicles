@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'Benne', serif;
+}
+header {
+    border-bottom: .5px solid gray;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 2rem;
+}
+nav {
+    height: 3.75rem;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+    list-style: none;
+    margin: 0 1.5vw 0 0;
+    height: 100%;
+    gap: 1rem;
+
+}
+header li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    padding: 3rem;
+    margin-top: 3rem;
+}
+article {
+    /* background-color: cornflowerblue; */
+    width: 100%;
+    max-width: 43rem;
+    margin-left: 7.75rem;
+    padding-right: 1rem;
+}
+.p-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+img {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
