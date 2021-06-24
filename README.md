@@ -4,3 +4,5 @@ This is a an attempt to make a blog for my fiancee. I haven't yet worked with an
 If you want to try this out, just clone and run: npm run devStart
 
 Must have npm installed
+
+Install nodemon to test in dev environment
